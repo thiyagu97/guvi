@@ -33,11 +33,15 @@ public class Hunter114 {
 		for(int i3=0;i3<list.size();i3++){
 			int a3=list.get(i3);
 			if(n%a3==0){
+				flag=0;
 				System.out.println("The answer is "+(n/a3));
+				break;
 			}
 	    	}
 		}
 		else
 		System.out.println("The answer is "+count);
+		if(flag==1)
+			System.out.println("The answer is 0");
 	}
 }
