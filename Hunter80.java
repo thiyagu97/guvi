@@ -24,6 +24,7 @@ public class Hunter80 {
 					list.add(i);
 			}
 		}
+				System.out.println("All Possible are");
 		for(Integer ans:list)
 		System.out.println(ans);
 	}
