@@ -6,7 +6,6 @@ public class Hunter88 {
 		String s=sc.next();
 		String ans="";String rep="";
 		char c1;int count=0,flag=1;
-		HashSet<Character> hs=new HashSet<Character>();
 		char[] c=s.toCharArray();
 		for(int i=(s.length()-1);i>=0;i--){
 			c1=s.charAt(i);count=0;flag=1;rep="";
